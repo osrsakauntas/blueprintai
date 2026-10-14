@@ -1,0 +1,212 @@
+structures:
+  village_blacksmith:
+    blueprint-chance: 35
+    loot-tables:
+      - chests/village/village_armorer
+      - chests/village/village_toolsmith
+      - chests/village/village_weaponsmith
+    rewards:
+      iron_pickaxe: { type: blueprint, id: iron_pickaxe, weight: 15 }
+      iron_axe: { type: blueprint, id: iron_axe, weight: 15 }
+      iron_sword: { type: blueprint, id: iron_sword, weight: 15 }
+      iron_helmet: { type: blueprint, id: iron_helmet, weight: 10 }
+      iron_chestplate: { type: blueprint, id: iron_chestplate, weight: 10 }
+      common_cache: { type: cache, id: common, weight: 15 }
+  mineshaft:
+    blueprint-chance: 40
+    loot-tables:
+      - chests/abandoned_mineshaft
+    rewards:
+      iron_pickaxe: { type: blueprint, id: iron_pickaxe, weight: 15 }
+      iron_shovel: { type: blueprint, id: iron_shovel, weight: 15 }
+      iron_hoe: { type: blueprint, id: iron_hoe, weight: 10 }
+      iron_leggings: { type: blueprint, id: iron_leggings, weight: 10 }
+      iron_boots: { type: blueprint, id: iron_boots, weight: 10 }
+      common_cache: { type: cache, id: common, weight: 15 }
+  simple_dungeon:
+    blueprint-chance: 30
+    loot-tables:
+      - chests/simple_dungeon
+    rewards:
+      iron_axe: { type: blueprint, id: iron_axe, weight: 15 }
+      iron_hoe: { type: blueprint, id: iron_hoe, weight: 10 }
+      iron_helmet: { type: blueprint, id: iron_helmet, weight: 10 }
+      iron_chestplate: { type: blueprint, id: iron_chestplate, weight: 10 }
+      iron_leggings: { type: blueprint, id: iron_leggings, weight: 10 }
+      iron_boots: { type: blueprint, id: iron_boots, weight: 10 }
+      common_cache: { type: cache, id: common, weight: 15 }
+  shipwreck:
+    blueprint-chance: 25
+    loot-tables:
+      - chests/shipwreck_map
+      - chests/shipwreck_supply
+      - chests/shipwreck_treasure
+    rewards:
+      iron_shovel: { type: blueprint, id: iron_shovel, weight: 25 }
+      iron_hoe: { type: blueprint, id: iron_hoe, weight: 20 }
+      iron_boots: { type: blueprint, id: iron_boots, weight: 20 }
+      fragment: { type: fragment, id: trade_token, weight: 15 }
+      common_cache: { type: cache, id: common, weight: 20 }
+  ruined_portal:
+    blueprint-chance: 25
+    loot-tables:
+      - chests/ruined_portal
+    rewards:
+      iron_sword: { type: blueprint, id: iron_sword, weight: 25 }
+      iron_helmet: { type: blueprint, id: iron_helmet, weight: 20 }
+      iron_chestplate: { type: blueprint, id: iron_chestplate, weight: 20 }
+      fragment: { type: fragment, id: trade_token, weight: 15 }
+      common_cache: { type: cache, id: common, weight: 20 }
+  igloo:
+    blueprint-chance: 30
+    loot-tables:
+      - chests/igloo_chest
+    rewards:
+      iron_helmet: { type: blueprint, id: iron_helmet, weight: 25 }
+      iron_leggings: { type: blueprint, id: iron_leggings, weight: 25 }
+      iron_boots: { type: blueprint, id: iron_boots, weight: 25 }
+      common_cache: { type: cache, id: common, weight: 25 }
+  desert_temple:
+    blueprint-chance: 40
+    loot-tables:
+      - chests/desert_pyramid
+    rewards:
+      diamond_pickaxe: { type: blueprint, id: diamond_pickaxe, weight: 15 }
+      diamond_sword: { type: blueprint, id: diamond_sword, weight: 15 }
+      diamond_helmet: { type: blueprint, id: diamond_helmet, weight: 10 }
+      diamond_chestplate: { type: blueprint, id: diamond_chestplate, weight: 10 }
+      iron_pickaxe: { type: blueprint, id: iron_pickaxe, weight: 20 }
+      rare_cache: { type: cache, id: rare, weight: 15 }
+      fragment: { type: fragment, id: trade_token, weight: 15 }
+  jungle_temple:
+    blueprint-chance: 40
+    loot-tables:
+      - chests/jungle_temple
+    rewards:
+      diamond_axe: { type: blueprint, id: diamond_axe, weight: 15 }
+      diamond_shovel: { type: blueprint, id: diamond_shovel, weight: 15 }
+      diamond_hoe: { type: blueprint, id: diamond_hoe, weight: 15 }
+      diamond_leggings: { type: blueprint, id: diamond_leggings, weight: 10 }
+      diamond_boots: { type: blueprint, id: diamond_boots, weight: 10 }
+      rare_cache: { type: cache, id: rare, weight: 20 }
+      fragment: { type: fragment, id: trade_token, weight: 15 }
+  pillager_outpost:
+    blueprint-chance: 35
+    loot-tables:
+      - chests/pillager_outpost
+    rewards:
+      iron_sword: { type: blueprint, id: iron_sword, weight: 20 }
+      diamond_sword: { type: blueprint, id: diamond_sword, weight: 15 }
+      diamond_axe: { type: blueprint, id: diamond_axe, weight: 15 }
+      diamond_chestplate: { type: blueprint, id: diamond_chestplate, weight: 10 }
+      rare_cache: { type: cache, id: rare, weight: 20 }
+      fragment: { type: fragment, id: trade_token, weight: 20 }
+  woodland_mansion:
+    blueprint-chance: 45
+    loot-tables:
+      - chests/woodland_mansion
+    rewards:
+      diamond_pickaxe: { type: blueprint, id: diamond_pickaxe, weight: 10 }
+      diamond_axe: { type: blueprint, id: diamond_axe, weight: 10 }
+      diamond_helmet: { type: blueprint, id: diamond_helmet, weight: 10 }
+      diamond_chestplate: { type: blueprint, id: diamond_chestplate, weight: 10 }
+      diamond_leggings: { type: blueprint, id: diamond_leggings, weight: 10 }
+      diamond_boots: { type: blueprint, id: diamond_boots, weight: 10 }
+      rare_cache: { type: cache, id: rare, weight: 20 }
+      fragment: { type: fragment, id: ancient, weight: 10 }
+  stronghold:
+    blueprint-chance: 40
+    loot-tables:
+      - chests/stronghold_corridor
+      - chests/stronghold_library
+      - chests/stronghold_crossing
+    rewards:
+      diamond_pickaxe: { type: blueprint, id: diamond_pickaxe, weight: 10 }
+      diamond_shovel: { type: blueprint, id: diamond_shovel, weight: 10 }
+      diamond_hoe: { type: blueprint, id: diamond_hoe, weight: 10 }
+      diamond_sword: { type: blueprint, id: diamond_sword, weight: 10 }
+      diamond_helmet: { type: blueprint, id: diamond_helmet, weight: 10 }
+      diamond_chestplate: { type: blueprint, id: diamond_chestplate, weight: 10 }
+      diamond_leggings: { type: blueprint, id: diamond_leggings, weight: 10 }
+      diamond_boots: { type: blueprint, id: diamond_boots, weight: 10 }
+      rare_cache: { type: cache, id: rare, weight: 20 }
+  underwater_ruins:
+    blueprint-chance: 25
+    loot-tables:
+      - chests/underwater_ruin_small
+      - chests/underwater_ruin_big
+    rewards:
+      iron_sword: { type: blueprint, id: iron_sword, weight: 25 }
+      iron_helmet: { type: blueprint, id: iron_helmet, weight: 20 }
+      iron_chestplate: { type: blueprint, id: iron_chestplate, weight: 20 }
+      fragment: { type: fragment, id: trade_token, weight: 20 }
+      common_cache: { type: cache, id: common, weight: 15 }
+  buried_treasure:
+    blueprint-chance: 35
+    loot-tables:
+      - chests/buried_treasure
+    rewards:
+      diamond_pickaxe: { type: blueprint, id: diamond_pickaxe, weight: 10 }
+      diamond_sword: { type: blueprint, id: diamond_sword, weight: 10 }
+      diamond_helmet: { type: blueprint, id: diamond_helmet, weight: 10 }
+      diamond_chestplate: { type: blueprint, id: diamond_chestplate, weight: 10 }
+      diamond_leggings: { type: blueprint, id: diamond_leggings, weight: 10 }
+      diamond_boots: { type: blueprint, id: diamond_boots, weight: 10 }
+      rare_cache: { type: cache, id: rare, weight: 20 }
+      fragment: { type: fragment, id: trade_token, weight: 20 }
+  nether_bridge:
+    blueprint-chance: 40
+    loot-tables:
+      - chests/nether_bridge
+    rewards:
+      diamond_axe: { type: blueprint, id: diamond_axe, weight: 15 }
+      diamond_pickaxe: { type: blueprint, id: diamond_pickaxe, weight: 15 }
+      diamond_leggings: { type: blueprint, id: diamond_leggings, weight: 10 }
+      diamond_boots: { type: blueprint, id: diamond_boots, weight: 10 }
+      rare_cache: { type: cache, id: rare, weight: 25 }
+      fragment: { type: fragment, id: ancient, weight: 25 }
+  ancient_city:
+    blueprint-chance: 50
+    loot-tables:
+      - chests/ancient_city
+    rewards:
+      diamond_pickaxe: { type: blueprint, id: diamond_pickaxe, weight: 10 }
+      diamond_axe: { type: blueprint, id: diamond_axe, weight: 10 }
+      diamond_shovel: { type: blueprint, id: diamond_shovel, weight: 10 }
+      diamond_hoe: { type: blueprint, id: diamond_hoe, weight: 10 }
+      diamond_sword: { type: blueprint, id: diamond_sword, weight: 10 }
+      diamond_helmet: { type: blueprint, id: diamond_helmet, weight: 10 }
+      diamond_chestplate: { type: blueprint, id: diamond_chestplate, weight: 10 }
+      diamond_leggings: { type: blueprint, id: diamond_leggings, weight: 10 }
+      diamond_boots: { type: blueprint, id: diamond_boots, weight: 10 }
+      legendary_cache: { type: cache, id: legendary, weight: 10 }
+  bastion_remnant:
+    blueprint-chance: 50
+    loot-tables:
+      - chests/bastion/treasure
+      - chests/bastion/other
+      - chests/bastion/bridge
+      - chests/bastion/hoglin_stable
+    rewards:
+      diamond_pickaxe: { type: blueprint, id: diamond_pickaxe, weight: 10 }
+      diamond_axe: { type: blueprint, id: diamond_axe, weight: 10 }
+      diamond_sword: { type: blueprint, id: diamond_sword, weight: 10 }
+      diamond_chestplate: { type: blueprint, id: diamond_chestplate, weight: 10 }
+      diamond_leggings: { type: blueprint, id: diamond_leggings, weight: 10 }
+      legendary_cache: { type: cache, id: legendary, weight: 25 }
+      fragment: { type: fragment, id: ancient, weight: 25 }
+  end_city:
+    blueprint-chance: 45
+    loot-tables:
+      - chests/end_city_treasure
+    rewards:
+      diamond_pickaxe: { type: blueprint, id: diamond_pickaxe, weight: 10 }
+      diamond_axe: { type: blueprint, id: diamond_axe, weight: 10 }
+      diamond_shovel: { type: blueprint, id: diamond_shovel, weight: 10 }
+      diamond_hoe: { type: blueprint, id: diamond_hoe, weight: 10 }
+      diamond_sword: { type: blueprint, id: diamond_sword, weight: 10 }
+      diamond_helmet: { type: blueprint, id: diamond_helmet, weight: 10 }
+      diamond_chestplate: { type: blueprint, id: diamond_chestplate, weight: 10 }
+      diamond_leggings: { type: blueprint, id: diamond_leggings, weight: 10 }
+      diamond_boots: { type: blueprint, id: diamond_boots, weight: 10 }
+      legendary_cache: { type: cache, id: legendary, weight: 10 }

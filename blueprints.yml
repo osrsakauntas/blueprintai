@@ -1,0 +1,212 @@
+blueprint-format: 3
+
+blueprints:
+  iron_pickaxe:
+    name: "Iron Pickaxe"
+    color: "&f"
+    rarity: ĮPRASTAS
+    category: TOOLS
+    description: "Geležinio kirtiklio gamybos brėžinys."
+    discovery-hint: "Dažnai randamas kaimų kalvių, požemių ir apleistų kasyklų skryniose."
+    duplicate-fragment: trade_token
+    item-material: PAPER
+    recipe-result: IRON_PICKAXE
+  iron_axe:
+    name: "Iron Axe"
+    color: "&f"
+    rarity: ĮPRASTAS
+    category: TOOLS
+    description: "Geležinio kirvio gamybos brėžinys."
+    discovery-hint: "Dažnai randamas kaimų kalvių, požemių ir apleistų kasyklų skryniose."
+    duplicate-fragment: trade_token
+    item-material: PAPER
+    recipe-result: IRON_AXE
+  iron_shovel:
+    name: "Iron Shovel"
+    color: "&f"
+    rarity: ĮPRASTAS
+    category: TOOLS
+    description: "Geležinio kastuvo gamybos brėžinys."
+    discovery-hint: "Dažnai randamas kaimų kalvių, požemių ir apleistų kasyklų skryniose."
+    duplicate-fragment: trade_token
+    item-material: PAPER
+    recipe-result: IRON_SHOVEL
+  iron_hoe:
+    name: "Iron Hoe"
+    color: "&f"
+    rarity: ĮPRASTAS
+    category: TOOLS
+    description: "Geležinio kauptuko gamybos brėžinys."
+    discovery-hint: "Dažnai randamas kaimų kalvių, požemių ir apleistų kasyklų skryniose."
+    duplicate-fragment: trade_token
+    item-material: PAPER
+    recipe-result: IRON_HOE
+  iron_sword:
+    name: "Iron Sword"
+    color: "&f"
+    rarity: ĮPRASTAS
+    category: ARMOR_WEAPONS
+    description: "Geležinio kardo gamybos brėžinys."
+    discovery-hint: "Dažnai randamas kaimų kalvių, požemių ir apleistų kasyklų skryniose."
+    duplicate-fragment: trade_token
+    item-material: PAPER
+    recipe-result: IRON_SWORD
+  iron_helmet:
+    name: "Iron Helmet"
+    color: "&f"
+    rarity: ĮPRASTAS
+    category: ARMOR_WEAPONS
+    description: "Geležinio šalmo gamybos brėžinys."
+    discovery-hint: "Dažnai randamas kaimų kalvių, požemių ir apleistų kasyklų skryniose."
+    duplicate-fragment: trade_token
+    item-material: PAPER
+    recipe-result: IRON_HELMET
+  iron_chestplate:
+    name: "Iron Chestplate"
+    color: "&f"
+    rarity: ĮPRASTAS
+    category: ARMOR_WEAPONS
+    description: "Geležinių krūtinšarvių gamybos brėžinys."
+    discovery-hint: "Dažnai randamas kaimų kalvių, požemių ir apleistų kasyklų skryniose."
+    duplicate-fragment: trade_token
+    item-material: PAPER
+    recipe-result: IRON_CHESTPLATE
+  iron_leggings:
+    name: "Iron Leggings"
+    color: "&f"
+    rarity: ĮPRASTAS
+    category: ARMOR_WEAPONS
+    description: "Geležinių antblauzdžių gamybos brėžinys."
+    discovery-hint: "Dažnai randamas kaimų kalvių, požemių ir apleistų kasyklų skryniose."
+    duplicate-fragment: trade_token
+    item-material: PAPER
+    recipe-result: IRON_LEGGINGS
+  iron_boots:
+    name: "Iron Boots"
+    color: "&f"
+    rarity: ĮPRASTAS
+    category: ARMOR_WEAPONS
+    description: "Geležinių batų gamybos brėžinys."
+    discovery-hint: "Dažnai randamas kaimų kalvių, požemių ir apleistų kasyklų skryniose."
+    duplicate-fragment: trade_token
+    item-material: PAPER
+    recipe-result: IRON_BOOTS
+  diamond_pickaxe:
+    name: "Diamond Pickaxe"
+    color: "&b"
+    rarity: RETAS
+    category: TOOLS
+    description: "Deimantinio kirtiklio gamybos brėžinys."
+    discovery-hint: "Ieškok retų skrynių šventyklose, tvirtovėse ir kitose pavojingose struktūrose."
+    duplicate-fragment: ancient
+    item-material: PAPER
+    recipe-result: DIAMOND_PICKAXE
+  diamond_axe:
+    name: "Diamond Axe"
+    color: "&b"
+    rarity: RETAS
+    category: TOOLS
+    description: "Deimantinio kirvio gamybos brėžinys."
+    discovery-hint: "Ieškok retų skrynių šventyklose, tvirtovėse ir kitose pavojingose struktūrose."
+    duplicate-fragment: ancient
+    item-material: PAPER
+    recipe-result: DIAMOND_AXE
+  diamond_shovel:
+    name: "Diamond Shovel"
+    color: "&b"
+    rarity: RETAS
+    category: TOOLS
+    description: "Deimantinio kastuvo gamybos brėžinys."
+    discovery-hint: "Ieškok retų skrynių šventyklose, tvirtovėse ir kitose pavojingose struktūrose."
+    duplicate-fragment: ancient
+    item-material: PAPER
+    recipe-result: DIAMOND_SHOVEL
+  diamond_hoe:
+    name: "Diamond Hoe"
+    color: "&b"
+    rarity: RETAS
+    category: TOOLS
+    description: "Deimantinio kauptuko gamybos brėžinys."
+    discovery-hint: "Ieškok retų skrynių šventyklose, tvirtovėse ir kitose pavojingose struktūrose."
+    duplicate-fragment: ancient
+    item-material: PAPER
+    recipe-result: DIAMOND_HOE
+  diamond_sword:
+    name: "Diamond Sword"
+    color: "&b"
+    rarity: RETAS
+    category: ARMOR_WEAPONS
+    description: "Deimantinio kardo gamybos brėžinys."
+    discovery-hint: "Ieškok retų skrynių šventyklose, tvirtovėse ir kitose pavojingose struktūrose."
+    duplicate-fragment: ancient
+    item-material: PAPER
+    recipe-result: DIAMOND_SWORD
+  diamond_helmet:
+    name: "Diamond Helmet"
+    color: "&b"
+    rarity: RETAS
+    category: ARMOR_WEAPONS
+    description: "Deimantinio šalmo gamybos brėžinys."
+    discovery-hint: "Ieškok retų skrynių šventyklose, tvirtovėse ir kitose pavojingose struktūrose."
+    duplicate-fragment: ancient
+    item-material: PAPER
+    recipe-result: DIAMOND_HELMET
+  diamond_chestplate:
+    name: "Diamond Chestplate"
+    color: "&b"
+    rarity: RETAS
+    category: ARMOR_WEAPONS
+    description: "Deimantinių krūtinšarvių gamybos brėžinys."
+    discovery-hint: "Ieškok retų skrynių šventyklose, tvirtovėse ir kitose pavojingose struktūrose."
+    duplicate-fragment: ancient
+    item-material: PAPER
+    recipe-result: DIAMOND_CHESTPLATE
+  diamond_leggings:
+    name: "Diamond Leggings"
+    color: "&b"
+    rarity: RETAS
+    category: ARMOR_WEAPONS
+    description: "Deimantinių antblauzdžių gamybos brėžinys."
+    discovery-hint: "Ieškok retų skrynių šventyklose, tvirtovėse ir kitose pavojingose struktūrose."
+    duplicate-fragment: ancient
+    item-material: PAPER
+    recipe-result: DIAMOND_LEGGINGS
+  diamond_boots:
+    name: "Diamond Boots"
+    color: "&b"
+    rarity: RETAS
+    category: ARMOR_WEAPONS
+    description: "Deimantinių batų gamybos brėžinys."
+    discovery-hint: "Ieškok retų skrynių šventyklose, tvirtovėse ir kitose pavojingose struktūrose."
+    duplicate-fragment: ancient
+    item-material: PAPER
+    recipe-result: DIAMOND_BOOTS
+
+caches:
+  common:
+    name: "Įprastų brėžinių skrynia"
+    material: CHEST
+    blueprints: [iron_pickaxe, iron_axe, iron_shovel, iron_hoe, iron_sword, iron_helmet, iron_chestplate, iron_leggings, iron_boots]
+    fallback-fragment: trade_token
+  rare:
+    name: "Retų brėžinių skrynia"
+    material: CHEST
+    blueprints: [diamond_pickaxe, diamond_axe, diamond_shovel, diamond_hoe, diamond_sword, diamond_helmet, diamond_chestplate, diamond_leggings, diamond_boots]
+    fallback-fragment: ancient
+  legendary:
+    name: "Legendinių brėžinių skrynia"
+    material: ENDER_CHEST
+    blueprints: [diamond_pickaxe, diamond_axe, diamond_shovel, diamond_hoe, diamond_sword, diamond_helmet, diamond_chestplate, diamond_leggings, diamond_boots]
+    fallback-fragment: ancient
+
+fragments:
+  ancient:
+    name: "Retų brėžinių fragmentas"
+    material: PRISMARINE_SHARD
+    required: 3
+    blueprints: [diamond_pickaxe, diamond_axe, diamond_shovel, diamond_hoe, diamond_sword, diamond_helmet, diamond_chestplate, diamond_leggings, diamond_boots]
+  trade_token:
+    name: "Tyrimų mainų fragmentas"
+    material: AMETHYST_SHARD
+    required: 3
+    blueprints: [iron_pickaxe, iron_axe, iron_shovel, iron_hoe, iron_sword, iron_helmet, iron_chestplate, iron_leggings, iron_boots]

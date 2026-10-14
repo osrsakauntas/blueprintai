@@ -1,0 +1,16 @@
+name: LostKnowledge
+version: 1.0.0
+main: com.kodari.lostknowledge.LostKnowledgePlugin
+api-version: '1.20'
+author: Kodari
+description: Brėžinių atradimas, tyrimai ir grobio vietų progresija.
+softdepend: [RaceBorderProgression]
+commands:
+  blueprint:
+    description: Atidaro ir tvarko brėžinių kolekciją.
+    usage: /blueprint [menu|research|give|unlock|list|admin]
+    aliases: [bp]
+permissions:
+  lostknowledge.admin:
+    description: Leidžia administruoti brėžinius.
+    default: op
